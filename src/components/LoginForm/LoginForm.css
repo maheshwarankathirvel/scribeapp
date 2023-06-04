@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.sign-in-style {
+    margin: 15rem 0 4rem 0 !important;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #444444;
+}
+
+@media screen and (max-width: 600px) {
+    .form-container {
+        width:100% !important;
+    }
+    .sign-in-style {
+        margin: 1.5rem 0 !important;
+    }
+}
+
+.form-container {
+    width: 35%;
+}
+
+.sign-in-font {
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.label-font{
+    font-weight: bold;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue-button-bg{
+    background: #777777;
+    font-weight: bold;
+
+}

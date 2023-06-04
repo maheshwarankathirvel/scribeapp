@@ -1,0 +1,31 @@
+@media (min-width:992px) {
+    .vertical-nav {
+        position: fixed;
+        top: 10vh;
+        left: 0;
+        width: 15%;
+        height: 100%;
+        background-color: white;
+        overflow-y: auto;
+        padding-top: 30px;
+        border-right: 1px solid #CCCCCC;
+        margin-left:2%;
+        font-size: 20px;
+        line-height: 47px !important;
+        padding-bottom:13% !important;
+    }
+}
+  .pad-left{
+    padding-left:1rem !important;
+    }
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .vertical-nav {
+        width: 21%;
+    }
+}
+
+.button {
+    width: auto;
+    border: none;
+}

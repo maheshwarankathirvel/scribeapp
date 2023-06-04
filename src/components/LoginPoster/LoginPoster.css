@@ -1,0 +1,14 @@
+.logo-container {
+    margin-top: 15%;
+}
+
+.login-poster{
+    background: #EEEEEE !important;
+    width:65%;
+}
+
+@media screen and (max-width: 600px) {
+    .login-poster {
+        width:100% !important;
+    }
+}

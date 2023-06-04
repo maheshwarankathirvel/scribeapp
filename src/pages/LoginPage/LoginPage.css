@@ -1,0 +1,13 @@
+.loginBg {
+    background: #EEEEEE !important;
+}
+
+.loginPageHeight{
+    height: 100% !important;
+}
+
+.loginPageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
